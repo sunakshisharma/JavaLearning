@@ -9,5 +9,6 @@ public class HelloWorld {
         Box obj = new Box();
         obj.setDimention(1,2,3);
         obj.getDimensions();
+        obj.calculateAreaAndShow(obj.getLength(),obj.getWidth(),obj.getHeight());
     }
 }
